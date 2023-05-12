@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+article {
+  width: 100%;
+  max-width: 512px;
+  margin: auto;
+}
+
+#jatekter {
+  width: 384px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#jatekter > div {
+  width: 128px;
+  height: 128px;
+  border: 1px solid black;
+  border-radius: 64px;
+}
+
+.zold {
+  background-color: green;
+}
+
+.sarga {
+  background-color: yellow;
+}
+
+#ujJatekGomb {
+  margin-top: 16px;
+}
+
+#lekapcsoltLampakSzama {
+  font-size: 32px;
+  color: green;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
